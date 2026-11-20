@@ -32,7 +32,7 @@ if __name__ == "__main__": # only if this is the current file being ran directly
     for i in range(len(players_list)):
         print(players_list[i].true_skill)
 
-print(all(player.rating == 1500 for player in players_list)) # just to see if all ratings start at 1500
+    print(all(player.rating == 1500 for player in players_list)) # just to see if all ratings start at 1500
 
-for player in players_list[:5]: # test to print first 5 players - goes with the repr
-    print(player)
+    for player in players_list[:5]: # test to print first 5 players - goes with the repr
+        print(player)
